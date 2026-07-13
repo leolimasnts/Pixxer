@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Color Isolator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="uploadScreen">
+
+    <div class="uploadBox">
+
+        <h1>Pixel Art Color Isolator</h1>
+
+        <p>
+            Upload a pixel art image.<br>
+            Click any pixel to isolate its color.
+        </p>
+
+        <label for="upload">
+            Upload Image
+        </label>
+
+        <input
+            id="upload"
+            type="file"
+            accept="image/*">
+
+    </div>
+
+</div>
+
+
+<div id="editor">
+
+    <div id="toolbar">
+        <span>
+            Selected: <span id="selectedColor">None</span>
+        </span>
+        <span id="pixelCount">Pixels: 0</span>
+        <span id="coords">(0,0)</span>
+        <button id="resetButton">Clear Filter</button>
+    </div>
+
+    <div id="workspace">
+        
+        <div id="sidebar">
+            <ul id="colorList"></ul>
+        </div>
+
+        <div id="canvasContainer">
+            <canvas id="canvas"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
