@@ -1,8 +1,10 @@
-# Pixxer
+# Pixxer [Try it!](https://leolimasnts.github.io/Pixxer/)
 
 > A lightweight browser tool to inspect pixel art palettes, isolate colors, and count exactly how many pixels each color occupies.
 
+
 ---
+
 
 ## Overview
 
